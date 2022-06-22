@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'AnarchoGeze';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Gezebell's Hells.Site Blog';
+    : "Gezebell's Hells.Site Blog";
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : '©Gezebell.';
